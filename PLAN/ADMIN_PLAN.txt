@@ -1,0 +1,71 @@
+ADMIN
+│
+├── Dashboard
+│
+├── Students
+│   ├── Add / Import Students
+│   │   ├── Excel / CSV Import
+│   │   └── Student Data Validation
+│   │
+│   ├── Student Listing
+│   ├── Student Details
+│   └── Delete Student
+│       ├── Enter Student ID
+│       └── OTP Confirmation
+│
+├── Teachers
+│   ├── Add Teacher
+│   ├── Teacher Listing
+│   ├── Teacher Details
+│   │
+│   ├── Delete / Remove Teacher
+│   │   ├── Enter Teacher ID
+│   │   └── OTP Confirmation
+│   │
+│   ├── Teacher-Class Assignments
+│   │   ├── Select Teacher
+│   │   ├── Select Academic Year
+│   │   ├── Select Department
+│   │   ├── Select Class / Section
+│   │   └── Assign
+│   │
+│   └── Teacher-Subject Assignments
+│       ├── Select Teacher
+│       ├── Select Subject
+│       ├── Select Class / Section
+│       └── Assign
+│
+├── Academics
+│   │
+│   ├── Academic Years
+│   │   ├── Add Academic Year
+│   │   ├── View Academic Years
+│   │   └── Set Active Academic Year
+│   │
+│   ├── Departments
+│   │   ├── Add Department
+│   │   └── Department Listing / Manage
+│   │
+│   ├── Classes / Sections
+│   │   ├── Add Class
+│   │   ├── Add Section
+│   │   └── View / Manage
+│   │
+│   └── Subjects
+│       ├── Add Subject
+│       ├── Subject Code
+│       ├── Subject Name
+│       ├── Department
+│       ├── Semester
+│       └── Manage Subjects
+│
+├── Timetable
+│
+└── Face Data Management
+    │
+    ├── Select Student
+    ├── Capture Face Data
+    ├── Generate / Update Face Encoding
+    │
+    └── Delete Face Data Only
+        └── OTP Confirmation

@@ -1,0 +1,82 @@
+# 👨‍🎓 FINAL STUDENT PLAN
+
+```text id="student-final"
+STUDENT
+│
+├── 🔐 Login
+│   ├── Student ID / Email
+│   ├── Password
+│   └── Forgot Password
+│       └── OTP-based Reset
+│
+└── 🏠 Student Dashboard
+    │
+    ├── 📊 Overall Attendance
+    │   ├── Overall Percentage
+    │   ├── Total Classes
+    │   ├── Present
+    │   └── Absent
+    │
+    ├── 📚 Subject-wise Attendance
+    │   ├── Subject Code
+    │   ├── Subject Name
+    │   ├── Total Classes
+    │   ├── Present
+    │   ├── Absent
+    │   └── Attendance Percentage
+    │
+    ├── 📅 Monthly Attendance
+    │   ├── Select Month
+    │   ├── Total Classes
+    │   ├── Present
+    │   ├── Absent
+    │   └── Monthly Percentage
+    │
+    └── 🎓 Semester-wise Attendance
+        ├── Select Semester
+        ├── Subject-wise Attendance
+        ├── Total Classes
+        ├── Present
+        ├── Absent
+        └── Semester Percentage
+```
+
+### 🔒 Student Permissions
+
+| Feature | Student |
+|---|---|
+| Login | ✅ |
+| View own dashboard | ✅ |
+| View overall attendance | ✅ |
+| View subject-wise attendance | ✅ |
+| View monthly attendance | ✅ |
+| View semester-wise attendance | ✅ |
+| View attendance history | ✅ |
+| Mark attendance | ❌ |
+| Edit attendance | ❌ |
+| Delete attendance | ❌ |
+| Modify attendance | ❌ |
+| Manage students | ❌ |
+| Manage face data | ❌ |
+
+### 🔗 Data Flow
+
+```text
+Admin
+  ↓
+Student Account + Student Details
+  ↓
+Teacher
+  ↓
+Attendance Session
+  ↓
+Face Recognition / Manual Attendance
+  ↓
+Attendance Database
+  ↓
+Student Dashboard
+  ↓
+Overall / Subject-wise / Monthly / Semester-wise
+```
+
+**Final Student module = Login + Read-only Attendance Dashboard.**

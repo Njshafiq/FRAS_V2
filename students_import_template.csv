@@ -1,0 +1,7 @@
+studentId,name,registerNumber,classId,academicYearId,gender,phone,email,dateOfBirth,enrollmentDate,active
+STU104101,Aarav Sharma,110123104101,1,1,Male,9876543201,aarav.sharma@college.edu,2005-04-12,2026-08-01,true
+STU104102,Diya Patel,110123104102,1,1,Female,9876543202,diya.patel@college.edu,2005-07-23,2026-08-01,true
+STU104103,Rohan Verma,110123104103,1,1,Male,9876543203,rohan.verma@college.edu,2004-11-15,2026-08-01,true
+STU104104,Ananya Iyer,110123104104,1,1,Female,9876543204,ananya.iyer@college.edu,2005-02-18,2026-08-01,true
+STU104105,Mohammed Farhan,110123104105,1,1,Male,9876543205,farhan.m@college.edu,2004-09-30,2026-08-01,true
+STU104106,Sneha Reddy,110123104106,1,1,Female,9876543206,sneha.reddy@college.edu,2005-05-08,2026-08-01,true

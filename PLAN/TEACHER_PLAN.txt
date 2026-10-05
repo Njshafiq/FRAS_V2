@@ -1,0 +1,128 @@
+# 👨‍🏫 FINAL TEACHER PLAN
+
+```text
+TEACHER
+│
+├── 🔐 Login
+│   ├── Teacher ID / Email
+│   ├── Password
+│   └── Forgot Password
+│       └── OTP-based Reset
+│
+├── 🏠 Dashboard
+│   ├── Assigned Classes
+│   ├── Assigned Subjects
+│   ├── Today's Classes
+│   ├── Today's Attendance Summary
+│   └── Quick Start Attendance
+│
+├── 🏫 My Classes
+│   ├── View Assigned Classes
+│   ├── Select Class / Section
+│   └── View Students
+│
+├── 📚 My Subjects
+│   ├── View Assigned Subjects
+│   └── Subject Details
+│
+├── 👨‍🎓 Student List
+│   ├── Select Class / Section
+│   ├── View Students
+│   ├── Student Details
+│   └── Attendance Summary
+│
+├── 📸 Attendance
+│   │
+│   ├── Start Attendance
+│   │   ├── Select Class
+│   │   ├── Select Subject
+│   │   └── Start Session
+│   │
+│   ├── Face Recognition
+│   │   ├── Camera ON
+│   │   ├── Detect Multiple Faces
+│   │   ├── Recognize Students
+│   │   ├── Multi-frame Confirmation
+│   │   ├── Unknown Face Handling
+│   │   └── Duplicate Prevention
+│   │
+│   ├── Force Manual Attendance
+│   │
+│   ├── Manual Attendance
+│   │   ├── Mark Present
+│   │   └── Mark Absent
+│   │
+│   ├── Mark All Present
+│   │
+│   ├── Review Attendance
+│   │   ├── Present Students
+│   │   ├── Absent Students
+│   │   └── Manual Corrections
+│   │
+│   └── Submit Attendance
+│       └── Lock Attendance
+│
+├── 📋 Attendance History
+│   ├── Date-wise
+│   ├── Class-wise
+│   ├── Subject-wise
+│   └── Session Details
+│
+├── 📊 Attendance Reports
+│   ├── Class Attendance
+│   ├── Subject Attendance
+│   ├── Student-wise Attendance
+│   ├── Date-wise Reports
+│   └── Export Reports
+│
+└── 👤 Profile
+    ├── View Profile
+    ├── Change Password
+    └── Logout
+```
+
+### 🔒 Locked Attendance — Final Rule
+
+```text
+Attendance Submitted
+        ↓
+Attendance Locked
+        ↓
+Teacher finds an error
+        ↓
+Send Correction Request
+        ↓
+Admin Reviews
+        ↓
+Admin Approves
+        ↓
+Attendance Modified
+        ↓
+Audit Log
+```
+
+**Teacher cannot directly modify locked attendance.**
+
+### Teacher permissions
+
+| Feature | Teacher |
+|---|---|
+| View assigned classes | ✅ |
+| View assigned subjects | ✅ |
+| View students | ✅ |
+| Start attendance | ✅ |
+| Face recognition | ✅ |
+| Force manual attendance | ✅ |
+| Manual attendance | ✅ |
+| Mark all present | ✅ |
+| Review attendance | ✅ |
+| Submit & lock | ✅ |
+| Attendance history | ✅ |
+| Reports | ✅ |
+| Correction request | ✅ |
+| Delete students | ❌ |
+| Manage face data | ❌ |
+| Add/remove teachers | ❌ |
+| Approve correction request | ❌ |
+
+This is the **final Teacher module structure** to use for the backend and UI design.

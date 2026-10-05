@@ -1,0 +1,89 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Java / Maven / Gradle
+backend-v2/target/
+backend-v2/.classpath
+backend-v2/.project
+backend-v2/.settings/
+backend-v2/.idea/
+backend-v2/*.iml
+**/mvnw
+**/mvnw.cmd
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.cache/
+frontend/.vite/
+frontend/.env
+frontend/.env.*
+
+# Python
+python-ai/.venv/
+python-ai/__pycache__/
+python-ai/**/__pycache__/
+python-ai/**/*.pyc
+python-ai/**/*.pyo
+python-ai/.pytest_cache/
+python-ai/.mypy_cache/
+python-ai/.coverage
+python-ai/.env
+python-ai/.env.*
+
+# Virtual env / caches
+.venv/
+venv/
+env/
+.env
+.env.*
+**/__pycache__/
+**/*.py[cod]
+
+# Logs / temp / crash dumps
+*.log
+hs_err_pid*.log
+replay_pid*.log
+*.tmp
+*.temp
+
+# Local tool caches
+.m2/
+.gemini/
+.agents/
+.agent/
+.github/
+.gsd/
+FRAS_codex/
+
+# Project output / generated artifacts
+backend-v2.zip
+backend-v2/.metadata/
+backend-v2/generated/
+backend-v2/test-output/
+
+# Keep source files and docs tracked
+!Docs/**
+!PLAN/**
+!scripts/**
+!backend-v2/src/**
+!backend-v2/pom.xml
+!frontend/src/**
+!frontend/package.json
+!frontend/vite.config.ts
+!frontend/tsconfig.json
+!frontend/tailwind.config.js
+!frontend/postcss.config.js
+!python-ai/**/*.py
+!python-ai/**/*.md
+!python-ai/**/*.json
+!python-ai/**/*.txt
+!python-ai/**/*.yml
+!python-ai/**/*.yaml
+!python-ai/**/*.cfg
